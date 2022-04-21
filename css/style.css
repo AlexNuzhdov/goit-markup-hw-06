@@ -268,7 +268,7 @@ position: relative;
 .sidebar {
     display: flex;
     padding: 0;
-    padding: 0;
+    margin: 0;
 }
 
 .flat{
@@ -285,8 +285,7 @@ position: relative;
    
     padding-top: 72px;
     padding-bottom: 100px;
-    margin-left: 80px;
-    margin: 0;
+    margin-right: 102px;
   
 }
 
@@ -371,6 +370,67 @@ position: relative;
     margin-bottom: 0;
 }
 
+/*ФОРМА ФУТЕРА*/
+.email-form input{
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 12px;
+    padding:0;
+}
+.email-form input::placeholder{
+    width: 47px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.25;
+     letter-spacing: 0.03em;
+}
+
+
+.social-form{
+    padding-top: 72px;
+    padding-bottom: 94px;
+    margin: 0;
+}
+.form{
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+}
+/*КНОПКА ФУТЕРА*/
+.button-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height: 50px;
+    margin:0;
+    padding: 0;
+    
+    background-color: #2196F3;
+    color: var(--secondary-color);
+
+    text-decoration: none;
+    border-radius: 4px;
+    
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.89;
+    letter-spacing: 0.06em;  
+}
+.icon-send{
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    margin-left: 10px;
+}
    
 /*feature-list*/
 .feature-list .title{
@@ -812,6 +872,7 @@ position: relative;
     display: inline-block;
     padding: 10px 32px;
     min-width: 200px;
+    height: 50px;
     text-align: center;
     background-color: #2196F3;
     color: var(--secondary-color);
@@ -1142,7 +1203,7 @@ img {
 }
 
 .tab-close{
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     background-color: #FFFFFF;
 }
